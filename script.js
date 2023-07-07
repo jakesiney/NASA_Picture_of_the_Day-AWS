@@ -8,7 +8,6 @@ fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}`)
       imageElement.src = data.url;
       imageElement.alt = data.title;
       document.getElementById("image-container").appendChild(imageElement);
-      // document.getElementById("data").innerHTML;
     } else {
       console.log("Today's media is not an image.");
     }
