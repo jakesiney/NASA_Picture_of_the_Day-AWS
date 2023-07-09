@@ -4,7 +4,7 @@ body {
   font-family: "Strait", sans-serif;
   margin: 0;
   padding: 20px;
-  background-image: url(/img/galaxy.jpg);
+  background-image: url("galaxy.jpg");
   background-repeat: no-repeat;
   background-size: auto;
 }
