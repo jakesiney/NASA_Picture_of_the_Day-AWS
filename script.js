@@ -1,4 +1,5 @@
-const apiKey = API_KEY;
+require('dotenv').config();
+const apiKey = process.env.API_KEY;
 
 fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}`)
   .then((response) => response.json())
