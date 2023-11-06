@@ -1,6 +1,5 @@
-const apiKey = ${{ secrets.NASA_API_KEY }};
 
-fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}`)
+fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`)
   .then((response) => response.json())
   .then((data) => {
     if (data.media_type === "image") {
