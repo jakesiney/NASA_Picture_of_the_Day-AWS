@@ -10,14 +10,17 @@
 
 <body>
     <h1>NASA Astronomy Picture of the Day</h1>
+    <p>Each day a different image or photograph of our fascinating universe is featured, <br>along with a brief explanation written by a professional astronomer.</p>
     <div id="title">
-        <p>Title: {{ data.title }}</p>
+        <p>{{ data.title }}</p>
     </div>
     <div id="image-container">
         <a href="{{ data.url }}" target="_blank" class="image-link">
             <img src="{{ data.url }}" alt="NASA APOD">
         </a>
     </div>
+    <div id="date">
+        <p>Date: {{ data.date }} </p>
     <div id="explanation">
         <p>Explanation:</p>
         <p>{{ data.explanation }}</p>
