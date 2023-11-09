@@ -22,4 +22,4 @@ This a straightforward web application with a Python and Flask backend. Its purp
 
 
 
-![Alt text](pots_screenshot.jpg)
+![Alt text](/Screenshot%202023-11-09%20at%2015.19.04.png)
