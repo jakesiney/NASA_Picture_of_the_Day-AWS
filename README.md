@@ -2,7 +2,7 @@
 
 [![Build and Push to Docker Hub](https://github.com/jakesiney/NASA_Picture_of_the_Day/actions/workflows/CI.yml/badge.svg)](https://github.com/jakesiney/NASA_Picture_of_the_Day/actions/workflows/CI.yml)
 
-This a straightforward web application using JavaScript and Express. Its purpose is simple: displaying the captivating NASA Astronomy Picture of the Day using the NASA APOD API. This project serves as a hands-on playground for honing DevOps skills.
+This a straightforward web application with a Python and Flask backend. Its purpose is simple: displaying the captivating NASA Astronomy Picture of the Day using the NASA APOD API. This project serves as a hands-on playground for honing DevOps skills.
 
 [Visit NASA Apod here 🚀🌌](https://apod.jakesiney.com)
 
