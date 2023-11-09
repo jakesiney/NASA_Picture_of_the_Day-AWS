@@ -12,14 +12,16 @@
     <h1>NASA Astronomy Picture of the Day</h1>
     <div id="title">
         <p>Title: {{ data.title }}</p>
-        </div>
+    </div>
     <div id="image-container">
-        <img src="{{ data.url }}" alt="NASA APOD">
+        <a href="{{ data.url }}" target="_blank" class="image-link">
+            <img src="{{ data.url }}" alt="NASA APOD">
+        </a>
     </div>
     <div id="explanation">
         <p>Explanation:</p>
         <p>{{ data.explanation }}</p>
-        </div>
+    </div>
 </body>
 
 </html>

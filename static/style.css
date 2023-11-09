@@ -9,6 +9,16 @@ body {
   background-size: auto;
 }
 
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  #explanation {
+    max-width: 90%; /* Adjust maximum width for smaller screens */
+  }
+}
+
+
 #explanation {
   margin: auto;
   max-width: 80%;
@@ -30,6 +40,16 @@ p {
 #image-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.image-link img{
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  border: none; /* Remove border */
+  box-shadow: none; /* Remove box shadow */
+  margin-bottom: 20px;
 }
 
 img {
