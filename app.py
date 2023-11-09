@@ -15,6 +15,8 @@ def index():
     url = f'https://api.nasa.gov/planetary/apod?api_key={api_key}'
     response = requests.get(url)
     data = json.loads(response.text)
+    # print(data)
+    # title = data['title']
     return render_template('index.html', data=data)
 
 
